@@ -34,10 +34,11 @@
 ### Local DB: `Room` vs Realm
 - Realm은 NoSQL라서, id 기반으로 구조화된 태그 정보를 저장하는 데에는 SQLite추상화 API인 Room이 더 적합함
     
-### Language: `Java 11` vs Kotlin
+### Language: `Java 8` vs Kotlin
 - 팀원들 다 자바로 안드로이드 개발 경험이 있음
 - 코틀린을 사용하면 자바를 사용했을때보다 코드의 길이는 줄어 개발의 편의성은 증가하지만 사용할 줄 모름
 - Android Gradle 플러그인 4.0.0 이상을 사용하면 Android 플랫폼의 모든 버전에서 Java 8+ API 사용 가능
+- Java 11은 아직 지원하지 않음
 
 <br>
 
